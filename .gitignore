@@ -1,0 +1,8 @@
+# Ignore Dataset. THe size is big and doens't even fit in github repository.
+Basic3DDataset.zip
+CancerPatients.npy
+HealthyPatients.npy
+
+First3Dmodel.ipynb
+antspy.ipynb
+brats_ds.ipynb
