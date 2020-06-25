@@ -46,7 +46,7 @@ The absence of labeling for each slice of the scans of the TCGA dataset makes it
 
 However, as some TCGA patients were used by the BraTS dataset, the tumor segmentation provided by the challenge allowed the tumor position to be more accurately found and the 2D images to be labeled correctly.
 
-## Merge and evaluate basic 2D dataset.
+### Merge and evaluate basic 2D dataset.
 
 The casting of the different images is performed in the [create_and_evaluate_2d_ds.ipynb](create_and_evaluate_2d_ds.ipynb) file.
 
@@ -55,3 +55,5 @@ Images from healthy datasets are selected automatically, while TCGA files were s
 After selecting only axial cuts from the Jun Cheng dataset, a general dataframe is generated.
 
 Within the code, the *EvaluateDataframe* class is responsible for illustrating the requested images, rotating the files (it is desirable that all faces point in the same direction) and even rerotulate any misclassifications.
+
+Finally, the [process_2d_brain_ds.ipynb](process_2d_brain_ds.ipynb) notebook resizes the images to the same definition and applies the N4ITK normalization algorithm the entire database. 
