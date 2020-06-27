@@ -12,7 +12,7 @@ The first step was to gather images from different datasets and organize them on
 2. The Cancer Genome Atlas Low Grade Glioma (TCGA-LGG): [TCGA-LGG - Cancer Imaging Archive](https://wiki.cancerimagingarchive.net/display/Public/TCGA-LGG);
 3. Jun Cheng - Images with three types of cancer: [Brain Tumor Dataset](https://figshare.com/articles/brain_tumor_dataset/1512427);
 4. Project with healthy patients: [IXI Dataset](http://brain-development.org/ixi-dataset/);
-5. T1 scans from Human Connectome Project available in AWS bucket: [Human Connectome Project](www.humanconnectome.org).
+5. T1 scans from Human Connectome Project available in AWS bucket: [Human Connectome Project](https://www.humanconnectome.org/study/hcp-young-adult).
 
 All images were resized to 256x256.
 
